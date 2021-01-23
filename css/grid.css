@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: 8.3333333333%;
+}
+.col-2{
+    width: 16,666666666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33,333333333%;
+}
+.col-5{
+    width: 41,66666666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58,33333333%;
+}
+.col-8{
+    width: 66,66666666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83,33333333%;
+}
+.col-11{
+    width: 91,66666666%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+/* container > row > column > */
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+    .row{
+        display: inherit;
+    }
+        .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+            width: 100%;
+        }
+}
+
+.tituloProductos{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #313337;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.imagenProducto{
+    width: 100%;
+}
+
+.tituloProducto{
+    color: #313337;
+}
+
+.tituloProducto2{
+    text-align: end;
+}
+
+.descripcion{
+    color: #313337;
+}
+
+.descripcion2{
+    text-align: end;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
