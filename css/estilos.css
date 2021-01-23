@@ -184,6 +184,7 @@ nav li a:hover{
     max-width: 200px;
     margin: auto;
     text-align: center;
+    width: 100%;
 }
 
 .data{
